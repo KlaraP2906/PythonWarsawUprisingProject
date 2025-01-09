@@ -11,3 +11,10 @@ while (i<=100):
             print("digital")
     else: print(i)
     i=i+1
+#Ersetze alle Zahlen die durch 5 teilbar sind durch "history"
+i=1
+while (i<=100):
+    if (i%5==0):
+            print("history")
+    else: print(i)
+    i=i+1
